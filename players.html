@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Players</title>
+    <link rel="icon" href="logo/logo-1.png" type="image/x-icon">
+    <!-- external css link -->
+<link rel="stylesheet" href="css/players.css">
+<!-- external css link -->
+<!-- for css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- for css -->
+<!-- for js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!-- for js -->
+<!-- google fonts cdn -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Jost&family=Tilt+Prism&display=swap" rel="stylesheet">
+ <!-- google fonts cdn -->
+ <link rel="stylesheet" href="css/animation.css">
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" id="icon" href="index.html"><img src="Images/logo/logo-1.png" style="height: 70px;" alt="">soccer verse</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="items">
+            <a class="nav-item nav-link" id="nav" href="index.html">home</a>
+            <a class="nav-item nav-link" id="nav"  href="about.html">about us</a>
+            <a class="nav-item nav-link" id="nav"  href="blogs.html">blogs</a>
+            <a class="nav-item nav-link" id="nav"  href="gallery.html">gallery</a>
+            <a class="nav-item nav-link" id="nav"  href="matches.html">matches</a>
+            <a class="nav-item nav-link" id="nav"  href="tournaments.html">tournaments</a>
+            <a class="nav-item nav-link" id="nav"  href="contact-us.html">contact us</a>
+            
+          </div>
+        </div>
+      </nav>
+    <!-- navbar  -->
+
+<!-- Top Button starts -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+    <!-- top button script starts -->
+<script>
+
+  let mybutton = document.getElementById("myBtn");
+  
+
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+<!-- top button script ends -->
+
+<!-- Top button ends  -->
+
+
+  <!-- full div open -->
+<div class="fulldiv">
+  <!-- full div open -->
+
+
+  <div class="card-deck row wow fadeInUp" id="data">
+
+  </div>
+
+
+  
+
+
+  <!-- full div close -->
+  </div>
+  <!-- full div close -->
+
+
+
+    <!-- footer -->
+<div class="container-fluid" id="footer">
+    <div class="row" id="footer-row">
+      <div class="col-lg-3 col-md-12" id="footer-div-1">
+        <center><img src="Images/logo/logo-1.png" alt=""></center>
+       
+    
+      </div>
+      <div class="col-lg-3 col-md-4" id="footer-div-2">
+        <h2>Help & Information</h2>
+        <ul>
+          <li><a href="faq_s.html">FAQ</a></li>
+          <li> <a href="blogs.html">Blogs</a></li>  
+          <li><a href="about.html">About Us</a></li>   
+        </ul>
+    </div>
+    <div class="col-lg-3 col-md-4" id="footer-div-3">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="matches.html">matches</a></li>
+        <li><a href="contact-us.html">contact us</a></li>
+  
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-4" id="footer-div-4">
+      <h2>tags</h2>
+      <ul>
+  
+        <li><a href="teams.html">teams</a></li>
+        <li><a href="players.html">players</a></li>
+        <li><a href="sponsors.html">sponsors</a></li>
+        <li><a href="tournaments.html">tournaments</a></li>
+       
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-md-lg-12" id="copyrights">
+
+      © Copyright 2023 | Soccer Verse Designed By SFC-VARIABLES
+  
+     </div>
+    </div>
+
+  <!-- footer -->
+
+
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+    fetch("json/players.json")
+      .then(response => response.json())
+      .then(data => {
+        let html = '';
+        for(let match of data){
+          html += `
+          <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+            <div class="card-deck wow fadeInUp" id="cdh" >
+  <div class="card"  id="cdh12">
+    <img class="card-img-top" id="imbs"  src="${match.image}" alt="${match.alt}">
+    <div class="overlay2">
+    <div class="txtbs">
+      <ul class="listof">
+        <li class="hbs1">${match.title}</li>
+     
+      </ul>
+      <ul>
+        <li class="hbs2">Date Of Birth : 24/05/1990</li>
+        <li class="hbs2">Place Of Birth : Canada</li>
+        <li class="hbs2">National Team : Malawi</li>
+        <li class="hbs2">Weight : 87kg</li>
+        <li class="hbs2">Height : 1,88 m.</li>
+        <li class="hbs2">Position : Defender</li>
+
+      </ul>
+    
+
+      
+ 
+    </div>
+    </div>
+</div>
+</div>
+</div>
+          `;
+        }
+        document.getElementById("data").innerHTML = html
+      })
+  </script>
+    
+</body>
+</html>

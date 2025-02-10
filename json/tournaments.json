@@ -1,0 +1,95 @@
+{
+    "upcoming": [
+        {
+            "title": "World Cup Saudi Arabia 2023",
+            "image": "Images/Tournament/World Cup Saudi Arabia 2023.png",
+            "alt":"Card image cap"
+        },
+       
+    
+        {
+            "title": "World Cup Uzbekistan 2023",
+            "image": "Images/Tournament/FIFA Beach Soccer World Cup.png",
+            "alt":"Card image cap"
+        },
+    
+    
+        {
+            "title": "World Cup Indonesia 2023",
+            "image": "Images/Tournament/World Cup Indonesia 2023.png",
+            "alt":"Card image cap"
+        },
+    
+    
+        {
+            "title": "World Cup Mexico 2023",
+            "image": "Images/Tournament/World Cup Uzbekistan 2023.png",
+            "alt":"Card image cap"
+        }
+      
+    ],
+
+    "recent":[
+        {
+            "title": "World Cup Qatar 2022",
+            "image": "Images/Tournament/World Cup Qatar 2022.png",
+            "alt":"Card image cap"
+        },
+       
+    
+        {
+            "title": "Beach Soccer World Cup 2021",
+            "image": "Images/Tournament/BeachSoccerWorldCup 2021.png",
+            "alt":"Card image cap"
+        },
+    
+    
+        {
+            "title": "World Cup UAE 2021",
+            "image": "Images/Tournament/World Cup UAE 2021.png",
+            "alt":"Card image cap"
+        },
+    
+    
+        {
+            "title": "World Cup Morocco 2022",
+            "image": "Images/Tournament/World Cup Morocco 2022.png",
+            "alt":"Card image cap"
+        }
+    
+    
+    ],
+
+    
+    "highlight":[
+        {
+            "title": "Spain V France Quarter Finals | World Cup Brazil 2022",
+            "image": "Images/Tournament/Spain V France Quarter Finals World Cup Brazil 2019.png",
+            "alt":"Card image cap"
+        },
+       
+    
+        {
+            "title": "Japan V Mexico | World Cup France 2022",
+            "image": "Images/Tournament/Japan V Mexico World Cup Brazil 2019.png",
+            "alt":"Card image cap"
+        },
+    
+    
+        {
+            "title": "Paraguay V Argentina | World Cup Indonesia 2022",
+            "image": "Images/Tournament/Paraguay V Argentina World Indonesia 2023.png",
+            "alt":"Card image cap"
+        },
+    
+    
+        {
+            "title": "Mexico V Netherland | World Cup Qatar 2022",
+            "image": "Images/Tournament/Mexico V Netherland World Cup Brazil 2018.png",
+            "alt":"Card image cap"
+        }
+    
+      
+    
+    ]
+}

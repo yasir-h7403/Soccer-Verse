@@ -1,0 +1,57 @@
+[
+    {
+        "title": "View Players",
+        "image": "Images/teams/pakisatan team.jpg",
+        "alt":"Card image cap"
+    },
+   
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/Barcelona.png",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/Real Madrid.png",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/everton.jpg",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/liverpool.png",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/stoke city.jpg",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/aston villa.jpg",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/west ham united.jpg",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "View Players",
+        "image": "Images/teams/sunderland.png",
+        "alt":"Card image cap"
+    }
+
+]

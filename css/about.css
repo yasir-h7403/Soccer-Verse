@@ -1,0 +1,319 @@
+/* <!-- navbar  --> */
+.navbar{
+    margin-bottom: -20px;
+    margin-top: 0px;
+
+  }
+  #items{
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  #icon{
+    font-size: 30px;
+    font-family: 'jost';
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #nav{
+    padding:14px ;
+    color: rgb(0, 0, 0);
+    font-family:'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    transition: all .25s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+  } 
+  #nav::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2.3px;
+    background:#00439b;
+    transition: width .3s;
+  } 
+  #nav:hover::after {
+    width: 100%;
+    transition: width .4s;
+  }
+  
+  /* <!-- navbar  --> */
+
+  
+  /* Top button styling starts */
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(145, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  #myBtn:hover {
+    background-color: #00f320;
+  }
+
+
+/* top button ends  */
+
+
+
+  /* banner starts*/
+   #banner{
+    margin-top: 20px;
+  }
+  #banner img{
+    height: 100%;
+    margin-bottom: 80px;
+  }
+  /* banner ends */
+
+  #imbs{
+    height: 100%;
+    width: 100%;
+  }
+  /* what-do */
+  #about-parent{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #child-1 h4{
+    font-family: 'Arial';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  #child-2 p{
+    font-family: 'jost';
+    font-weight: lighter;
+    font-size: 26px;
+  }
+  #child-2 small{
+
+    font-family: 'jost';
+    font-size: 24px;
+    color: rgb(90, 85, 85);
+  }
+  /* what-do */
+  /* history */
+  #history-parent{
+    margin-top: 50px;
+  }
+  #history-heading h2{
+    text-align: center;
+    font-family: 'jost';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  #history-heading img{
+   height: 480px;  
+  }
+  #history-heading p{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 21px;
+    text-align: justify;
+    margin-top:20px ;
+  }
+   /* history */
+   /* <!-- heading --> */
+  #latest-parent{
+    margin-top: 50px;
+  }
+  #heading h2{
+    text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  /* <!-- heading --> */
+/* cards */
+  #cdh{
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+   padding: -15px;
+ margin-left: auto;
+ margin-right: auto;
+}
+#cdh12:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#cdh12{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+  width: 100%;
+  border: none;
+ padding: 20px;
+
+}
+#cdh12 img{
+  height: 280px;
+}
+#cdh12 small{
+text-transform: capitalize;
+color: rgba(32, 36, 41, 0.763);
+padding-top: 10px;
+}
+#cdh12 p{
+  font-weight: bold;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+/* cards */
+/* social-link */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #d33177;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  /* social-link */
+  /* <!-- footer --> */
+  #footer{
+    background-color: rgb(2, 2, 28);
+    height: fit-content;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 40px;
+  }
+  #footer img{
+    height: 220px;
+    width: 220px;
+    margin-top: 40px;
+  }
+  
+  
+  #footer h2{
+    color: white;
+    font-family:'jost';
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  }
+  
+  #footer-div-2 ul li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  #footer-div-2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    transition: all .25s ease-in-out;
+  }
+  #footer-div-2 a:hover{
+    color: #ecb70f
+  }
+  #footer-div-3 ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+  }
+  #footer-div-3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    transition: all .25s ease-in-out;
+  }
+  #footer-div-3 a:hover{
+    color: #ecb70f
+  }
+  
+  #footer-div-4 ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+  
+  }
+  #footer-div-4 a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  transition: all .25s ease-in-out;
+  
+  }
+  #footer-div-4 a:hover{
+    color: #ecb70f
+  }
+  #footer-row{
+    border-bottom: 1px solid rgb(255, 255, 255);
+  
+  }
+  
+  /* <!-- footer --> */
+
+  /* copyrights */
+  
+#copyrights{
+  padding-top: 10px;
+  color: rgb(101, 183, 235);
+  font-weight: bolder;
+  font-family: "Andalus";
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+ 
+
+  
+}
+
+ /* copyrights */

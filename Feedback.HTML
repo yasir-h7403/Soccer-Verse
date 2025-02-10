@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoore Verse</title>
+    <link rel="icon" href="Images/logo/logo-1.png" type="image/x-icon">
+<!-- external css link -->
+<link rel="stylesheet" href="css/index.css">
+<!-- external css link -->
+<!-- for css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- for css -->
+<!-- for js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!-- for js -->
+<!-- google fonts cdn -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Jost&family=Tilt+Prism&display=swap" rel="stylesheet">
+ <!-- google fonts cdn -->
+ <link rel="stylesheet" href="css/animation.css">
+</head>
+<body class="body" >
+    <!-- navbar  -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" id="icon"href="index.html"><img src="Images/logo/logo-1.png" style="height: 70px;" alt="">soccer verse</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <div class="navbar-nav" id="items">
+        <a class="nav-item nav-link" id="nav" href="index.html">home</a>
+        <a class="nav-item nav-link" id="nav"  href="about.html">about us</a>
+        <a class="nav-item nav-link" id="nav"  href="blogs.html">blogs</a>
+        <a class="nav-item nav-link" id="nav"  href="gallery.html">gallery</a>
+        <a class="nav-item nav-link" id="nav"  href="matches.html">matches</a>
+        <a class="nav-item nav-link" id="nav"  href="tournaments.html">tournaments</a>
+        <a class="nav-item nav-link" id="nav"  href="players.html">players</a>
+        <a class="nav-item nav-link" id="nav"  href="contact-us.html">contact us</a>
+      
+      </div>
+    </div>
+  </nav>
+<!-- navbar  -->
+
+<!-- banner -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" id="parent-div">
+      <div class="carousel-item active" id="child-div">
+        <img class="d-block w-100" src="BANNERS/product.jpg" style="height:185px; width: 100%;" alt="">
+      <center>
+        <h1>REVIEWS & FEEDBACK</h1>
+        <h2><a href="">products / Reviews & Feedback</a></h2>
+      </center> 
+      </div> 
+    </div>
+  </div>
+  <!-- banner -->
+
+
+<!-- Forms Stars Here    -->
+
+<div class="feedback-container">
+    <h1>Feedback Form</h1>
+    <h6 style="color: rgb(90, 90, 90); text-align: center;" >We appreciate your feedback!</h6>
+    <br>
+    <form id="feedback-form">
+      <label for="suggestion">Your suggestion:</label>
+      <input type="text" id="suggestion" required>
+  
+      <label for="problem">Has your life changed after using the product?</label>
+      <br>
+      <div class="inpof">
+            <input type="radio"  name="Gender" id="website-like" required> Yes
+            <input type="radio"  name="Gender" id="website-like" required> No
+          </div>
+        <br>
+        <label for="suggestion">How would you rate the buying experience?</label>
+
+       
+            <div class="rating" for="suggestion">
+                <input type="radio" name="rate" id="rating-opt5" data-idx="0">
+                <label for="rating-opt5" id="ll" required><span id="spa">Excellent</span></label>
+    
+                <input type="radio" name="rate" id="rating-opt4" data-idx="1">
+                <label for="rating-opt4" id="ll"  required><span  id="spa">Awesome</span></label>
+    
+                <input type="radio" name="rate" id="rating-opt3" data-idx="2">
+                <label for="rating-opt3" id="ll"  required><span  id="spa">Great</span></label>
+    
+                <input type="radio" name="rate" id="rating-opt2" data-idx="3">
+                <label for="rating-opt2" id="ll"  required><span  id="spa">Good</span></label>
+    
+                <input type="radio" name="rate" id="rating-opt1" data-idx="1">
+                <label for="rating-opt1" id="ll"  required><span  id="spa">Bad</span></label>
+            </div>
+      
+  
+      <label for="website-like">What is your greatest concern about product?</label>
+      <textarea id="tell-more" rows="3" required></textarea>
+  
+      <label for="tell-more">Any other feedback?</label>
+      <textarea id="tell-more" rows="5" required></textarea>
+  
+      <button type="submit">Submit</button>
+    </form>
+  
+    <div class="success-message" style="display:none">
+      Thanks for your feedback!
+    </div>
+  <script>
+    const form = document.getElementById("feedback-form");
+  
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+  
+      alert("Thanks for your feedback!");
+      form.reset();
+    });
+  </script>
+  
+  <!-- Forms Ends Here    -->
+  
+  </div> 
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+  <div class="container-fluid" id="footer">
+    <div class="row" id="footer-row">
+      <div class="col-lg-3 col-md-12" id="footer-div-1">
+        <center><img src="LOGO/6.png
+          " alt=""></center>
+       <h1>THE PERFUME</h1>
+       <br>
+       <p>Our main aim is to provide great range of perfumes at the lowest prices with great online shopping experience, free shipping* and Prompt customer service.</p>
+    
+      </div>
+      <div class="col-lg-3 col-md-4" id="footer-div-2">
+        <h2>Help & Information</h2>
+        <ul>
+          <li><a href="faq_s.html">FAQ</a></li>
+          <li> <a href="blogs.html">Blogs</a></li>  
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="refund-policy.html"> Refund policy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="service.html">Terms of Service</a></li>
+          <li><a href="customer-support.html">Customer Support</a></li>
+        </ul>
+    </div>
+    <div class="col-lg-3 col-md-4" id="footer-div-3">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="formen.html">For Men</a></li>
+        <li><a href="forwomen.html">  For Women</a></li>
+        <li><a href="new-arrivals.html">New Arrivals</a></li>
+        <li><a href="best-seller.html">Best Sellers</a></li>
+        <li><a href="shop-by-brand.html"> Shop By Brands</a></li>
+        <li><a href="luxury perfumes.html">Luxury Perfumes</a></li>
+        <li><a href="body-spray.html">Body spray</a></li>
+        <li><a href="gift.html">Gift Sets</a></li>
+        <li><a href="attar.html">Attar</a></li>
+       
+      </ul>
+    </div>
+    <div class="col-lg-3 col-md-4" id="footer-div-4">
+      <h2>Brands</h2>
+      <ul>
+        <li><a href="armaf.html">Armaf</a></li>
+        <li><a href="lattafa.html">Lattafa</a></li>
+        <li><a href="hugo boss.html">Hugo Boss</a></li>
+        <li><a href="calvin klein.html">Calvin Klein</a></li>
+        <li><a href="junaid jamshed.html">Junaid Jamshed</a></li>
+        <li><a href="dolce and gabbana.html">Dolce & Gabbana</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-md-lg-12" id="copyrights">
+
+      © Copyright 2023 | The Perfume Designed By M.Ghazali & Akmal
+  
+     </div>
+    </div>
+  <!-- footer -->
+    
+      
+  
+  
+  </body>
+  </html>
+
+
+

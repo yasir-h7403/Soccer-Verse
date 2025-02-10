@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournaments</title>
+    <link rel="icon" href="logo/logo-1.png" type="image/x-icon">
+    <!-- external css link -->
+<link rel="stylesheet" href="css/tournaments.css">
+<!-- external css link -->
+<!-- for css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- for css -->
+<!-- for js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <!-- for js -->
+<!-- google fonts cdn -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Jost&family=Tilt+Prism&display=swap" rel="stylesheet">
+ <!-- google fonts cdn -->
+ <link rel="stylesheet" href="css/animation.css">
+</head>
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" id="icon" href="index.html"><img src="Images/logo/logo-1.png" style="height: 70px;" alt="">soccer verse<span></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="items">
+            <a class="nav-item nav-link" id="nav" href="index.html">home</a>
+            <a class="nav-item nav-link" id="nav"  href="about.html">about us</a>
+            <a class="nav-item nav-link" id="nav"  href="blogs.html">blogs</a>
+            <a class="nav-item nav-link" id="nav"  href="gallery.html">gallery</a>
+            <a class="nav-item nav-link" id="nav"  href="matches.html">matches</a>
+            <a class="nav-item nav-link" id="nav"  href="tournaments.html">tournaments</a>
+            <a class="nav-item nav-link" id="nav"  href="contact-us.html">contact us</a>
+            
+          </div>
+        </div>
+      </nav>
+    <!-- navbar  -->
+
+    <!-- banner -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" id="banner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="Images/Tournament/Banner.png" alt="First slide">
+
+      <div class="cuttext">TOURNAMENTS</div>
+    </div>
+  </div>
+</div>
+<!-- banner -->
+
+<!-- Top Button starts -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+<!-- top button script starts -->
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  mybutton.style.display = "block";
+} else {
+  mybutton.style.display = "none";
+}
+}
+
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
+
+<!-- top button script ends -->
+
+<!-- Top button ends  -->
+
+  <!-- full div open -->
+  <div class="fulldiv" >
+    <!-- full div open -->
+
+
+
+
+    <div class="card-deck row wow fadeInUp" id="data">
+
+       
+
+
+    </div>
+
+
+  
+    <h1 class="tet">UPCOMING TOURNAMENTS 2023</h1>
+    <div class="card-deck row wow fadeInUp" id="upcoming">
+
+    </div>
+
+<div class="card-deck wow fadeInUp" id="cdh" >
+  
+  <div class="card"  id="cdh12">
+    <img class="card-img-top" id="imbs"  src="Images/Tournament/World Cup Saudi Arabia 2023.png" alt="Card image cap">
+<p class="dta">World Cup Saudi Arabia 2023</p>
+    </div>
+
+    <div class="card"  id="cdh12">
+      <img class="card-img-top" id="imbs"  src="Images/Tournament/FIFA Beach Soccer World Cup.png" alt="Card image cap">
+      <p class="dta">World Cup Uzbekistan 2023</p>
+      </div>
+
+      <div class="card"  id="cdh12">
+        <img class="card-img-top" id="imbs"  src="Images/Tournament/World Cup Indonesia 2023.png" alt="Card image cap">
+        <p class="dta">World Cup Indonesia 2023</p>
+        </div>
+
+        <div class="card"  id="cdh12">
+          <img class="card-img-top" id="imbs"  src="Images/Tournament/World Cup Uzbekistan 2023.png" alt="Card image cap">
+          <p class="dta">World Cup Mexico 2023</p>
+          </div>
+
+   </div>
+
+
+   <h1 class="tet">RECENT TOURNAMENTS 2022</h1>
+   <div class="card-deck row wow fadeInUp"  id="recent"></div>
+
+
+   <div class="card-deck wow fadeInUp" id="cdh" >
+  
+    <div class="card"  id="cdh12">
+      <img class="card-img-top" id="imbs"  src="Images/Tournament/World Cup Qatar 2022.png" alt="Card image cap">
+      <p class="dta">World Cup Qatar 2022</p>
+      </div>
+  
+      <div class="card"  id="cdh12">
+        <img class="card-img-top" id="imbs"  src="Images/Tournament/BeachSoccerWorldCup 2021.png" alt="Card image cap">
+        <p class="dta">Beach Soccer World Cup 2021</p>
+        </div>
+  
+        <div class="card"  id="cdh12">
+          <img class="card-img-top" id="imbs"  src="Images/Tournament/World Cup UAE 2021.png" alt="Card image cap">
+          <p class="dta">World Cup UAE 2021</p>
+          </div>
+  
+          <div class="card"  id="cdh12">
+            <img class="card-img-top" id="imbs"  src="Images/Tournament/World Cup Morocco 2022.png" alt="Card image cap">
+            <p class="dta">World Cup Morocco 2022</p>
+            </div>
+  
+     </div>
+
+
+     <h1 class="tet">HIGHLIGHT TOURNAMENTS 2022</h1>
+     <div class="card-deck row wow fadeInUp"  id="highlight"></div>
+
+     <div class="card-deck wow fadeInUp" id="cdh" >
+  
+      <div class="card"  id="cdh12">
+        <img class="card-img-top" id="imbs"  src="Images/Tournament/Spain V France Quarter Finals World Cup Brazil 2019.png" alt="Card image cap">
+        <p class="dta">Spain V France Quarter Finals | World Cup Brazil 2022</p>
+    
+        </div>
+    
+        <div class="card"  id="cdh12">
+          <img class="card-img-top" id="imbs"  src="Images/Tournament/Japan V Mexico World Cup Brazil 2019.png" alt="Card image cap">
+          <p class="dta">Japan V Mexico | World Cup France 2022</p>
+          </div>
+    
+          <div class="card"  id="cdh12">
+            <img class="card-img-top" id="imbs"  src="Images/Tournament/Paraguay V Argentina World Indonesia 2023.png" alt="Card image cap">
+            <p class="dta">Paraguay V Argentina | World Cup Indonesia 2022</p>
+            </div>
+    
+            <div class="card"  id="cdh12">
+              <img class="card-img-top" id="imbs"  src="Images/Tournament/Mexico V Netherland World Cup Brazil 2018.png" alt="Card image cap">
+              <p class="dta">Mexico V Netherland | World Cup Qatar 2022</p>
+              </div>
+    
+       </div>
+
+
+       <h1 class="tet">TOP SCORES</h1>
+
+     <br>
+     <br>  
+<center>
+   <div class="container-fluid  wow fadeInUp">
+<div class="row">
+  <div class="col-sm-6 " id="card-items">
+    <img src="Images/Top Scores/Cesare Flag.png"  alt="">
+    <p>Cesare</p>
+    <br>
+    <h2>CASCADEI</h2>
+  <br>
+  <h3>#1</h3>
+  <h5>10 Goals</h5>
+  </div>
+
+  <div class="col-sm-6" >
+    <img src="Images/Top Scores/Cascadei.png" alt="">
+  </div>
+</div>
+</div>
+<br>
+<br>
+<h1 class="tet"></h1>
+<br>
+<br>
+<br>
+    <div class="row wow fadeInUp">
+      <div class="col-sm-6" id="card-items">
+        <img src="Images/Top Scores/Anan flag.png"  alt="">
+        <p>Anan </p>
+        <br>
+        <h2>KHALAILI</h2>
+      <br>
+      <h3>#2</h3>
+      <h5>9 Goals</h5>
+      </div>
+    
+      <div class="col-sm-6">
+        <img src="Images/Top Scores/KHALAILI.png" alt="">
+      </div>
+    
+    </div>
+
+
+    <br>
+                    <br>
+                    <h1 class="tet"></h1>
+                    <br>
+                    <br>
+                    <br>
+                        <div class="row wow fadeInUp">
+                          <div class="col-sm-6" id="card-items">
+                            <img src="Images/Top Scores/Lee Flag.png"  alt="">
+                            <p>Lee</p>
+                            <br>
+                            <h2>TURGEMAN</h2>
+                          <br>
+                          <h3>#3</h3>
+                          <h5>8 Goals</h5>
+                          </div>
+                        
+                          <div class="col-sm-6">
+                            <img src="Images/Top Scores/Seungwon.png" alt="">
+                          </div>
+                        
+                        </div>
+
+
+    <br>
+<br>
+<h1 class="tet"></h1>
+<br>
+<br>
+<br>
+    <div class="row wow fadeInUp">
+      <div class="col-sm-6" id="card-items">
+        <img src="Images/Top Scores/Alejo flag.png"  alt="">
+        <p>Alejo</p>
+        <br>
+        <h2>VELIZ</h2>
+      <br>
+      <h3>#4</h3>
+      <h5>7 Goals</h5>
+      </div>
+    
+      <div class="col-sm-6">
+        <img src="Images/Top Scores/VELIZ.png" alt="">
+      </div>
+    
+    </div>
+    
+    <br>
+    <br>
+    <h1 class="tet"></h1>
+    <br>
+    <br>
+    <br>
+        <div class="row wow fadeInUp">
+          <div class="col-sm-6" id="card-items">
+            <img src="Images/Top Scores/Luka Flag.png"  alt="">
+            <p>Luka</p>
+            <br>
+            <h2>ROMERO</h2>
+          <br>
+          <h3>#5</h3>
+          <h5>6 Goals</h5>
+          </div>
+        
+          <div class="col-sm-6">
+            <img src="Images/Top Scores/ROMERO.png" alt="">
+          </div>
+        
+        </div>
+        
+        <br>
+        <br>
+        <h1 class="tet"></h1>
+        <br>
+        <br>
+        <br>
+            <div class="row wow fadeInUp">
+              <div class="col-sm-6" id="card-items">
+                <img src="Images/Top Scores/Matias flag.png"  alt="">
+                <p>Matias</p>
+                <br>
+                <h2>ABALDO</h2>
+              <br>
+              <h3>#6</h3>
+              <h5>5 Goals</h5>
+              </div>
+            
+              <div class="col-sm-6">
+                <img src="Images/Top Scores/ABALDO.png" alt="">
+              </div>
+            
+            </div>
+
+                  
+            <br>
+            <br>
+            <h1 class="tet"></h1>
+            <br>
+            <br>
+            <br>
+                <div class="row wow fadeInUp">
+                  <div class="col-sm-6" id="card-items">
+                    <img src="Images/Top Scores/Tomas flag.png"  alt="">
+                    <p>Tomas</p>
+                    <br>
+                    <h2>Angel</h2>
+                  <br>
+                  <h3>#7</h3>
+                  <h5>4 Goals</h5>
+                  </div>
+                
+                  <div class="col-sm-6">
+                    <img src="Images/Top Scores/Angel.png" alt="">
+                  </div>
+                
+                </div>
+
+            <br>
+            <br>
+            <h1 class="tet"></h1>
+            <br>
+            <br>
+            <br>
+                <div class="row wow fadeInUp">
+                  <div class="col-sm-6" id="card-items">
+                    <img src="Images/Top Scores/Matias flag.png"  alt="">
+                    <p>Matias</p>
+                    <br>
+                    <h2>ABALDO</h2>
+                  <br>
+                  <h3>#8</h3>
+                  <h5>3 Goals</h5>
+                  </div>
+                
+                  <div class="col-sm-6">
+                    <img src="Images/Top Scores/ABALDO.png" alt="">
+                  </div>
+                
+                </div>
+
+
+                       
+                <br>
+                <br>
+                <h1 class="tet"></h1>
+                <br>
+                <br>
+                <br>
+                    <div class="row wow fadeInUp">
+                      <div class="col-sm-6" id="card-items">
+                        <img src="Images/Top Scores/Cristhoper flag.png"  alt="">
+                        <p>Cristhoper</p>
+                        <br>
+                        <h2>ZAMBRANO</h2>
+                      <br>
+                      <h3>#9</h3>
+                      <h5>2 Goals</h5>
+                      </div>
+                    
+                      <div class="col-sm-6">
+                        <img src="Images/Top Scores/ZAMBRANO.png" alt="">
+                      </div>
+                    
+                    </div>
+
+
+                <br>
+                <br>
+                <h1 class="tet"></h1>
+                <br>
+                <br>
+                <br>
+                    <div class="row wow fadeInUp">
+                      <div class="col-sm-6" id="card-items">
+                        <img src="Images/Top Scores/Dxor flag.png"  alt="">
+                        <p>Dor</p>
+                        <br>
+                        <h2>TURGEMAN</h2>
+                      <br>
+                      <h3>#10</h3>
+                      <h5>2 Goals</h5>
+                      </div>
+                    
+                      <div class="col-sm-6">
+                        <img src="Images/Top Scores/TURGEMAN.png" alt="">
+                      </div>
+                    
+                    </div>
+
+
+                    
+
+                  
+
+                 
+            
+            
+            
+  </center>
+
+     <!-- full div close -->
+    </div>
+  <!-- full div close -->
+
+<!-- footer -->
+<div class="container-fluid" id="footer">
+  <div class="row" id="footer-row">
+    <div class="col-lg-3 col-md-12" id="footer-div-1">
+      <center><img src="Images/logo/logo-1.png" alt=""></center>
+     
+  
+    </div>
+    <div class="col-lg-3 col-md-4" id="footer-div-2">
+      <h2>Help & Information</h2>
+      <ul>
+        <li><a href="faq_s.html">FAQ</a></li>
+        <li> <a href="blogs.html">Blogs</a></li>  
+        <li><a href="about.html">About Us</a></li>   
+      </ul>
+  </div>
+  <div class="col-lg-3 col-md-4" id="footer-div-3">
+    <h2>Quick Links</h2>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="gallery.html">gallery</a></li>
+      <li><a href="matches.html">matches</a></li>
+      <li><a href="contact-us.html">contact us</a></li>
+
+    </ul>
+  </div>
+  <div class="col-lg-3 col-md-4" id="footer-div-4">
+    <h2>tags</h2>
+    <ul>
+ 
+      <li><a href="teams.html">teams</a></li>
+      <li><a href="players.html">players</a></li>
+      <li><a href="sponsors.html">sponsors</a></li>
+      <li><a href="tournaments.html">tournaments</a></li>
+     
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-md-lg-12" id="copyrights">
+
+    © Copyright 2023 | Soccer Verse Designed By SFC-VARIABLES
+
+   </div>
+  </div>
+
+<!-- footer -->
+
+
+<script src="js/wow.js"></script>
+<!-- <script>
+  new WOW().init();
+  fetch("json/tournaments.json")
+    .then(response => response.json())
+    .then(data => {
+      let upcomingHtml = '';
+      for(let match of data.upcoming){
+        upcomingHtml += `
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+          <div class="card-deck wow fadeInUp" id="cdh" >
+            <div class="card" id="cdh12">
+              <img class="card-img-top" id="imbs" src="${match.image}" alt="${match.alt}">
+              <p class="data">${match.title}</p>
+          </div>
+        </div>
+      </div>
+        `;
+      }
+
+      let recentHtml = '';
+      for(let match of data.recent){
+        recentHtml += `
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+          <div class="card-deck wow fadeInUp" id="cdh" >
+            <div class="card" id="cdh12">
+              <img class="card-img-top" id="imbs" src="${match.image}" alt="${match.alt}">
+              <p class="data">${match.title}</p>
+          </div>
+        </div>
+      </div>
+        `;
+      }
+      
+      let highlightHTML = '';
+      for(let match of data.highlight){
+        highlightHTML += `
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-12'>
+          <div class="card-deck wow fadeInUp" id="cdh" >
+            <div class="card" id="cdh12">
+              <img class="card-img-top" id="imbs" src="${match.image}" alt="${match.alt}">
+              <p class="data">${match.title}</p>
+          </div>
+        </div>
+      </div>
+        `;
+      }
+      document.getElementById("upcoming").innerHTML = upcomingHtml
+      document.getElementById("recent").innerHTML = recentHtml
+      document.getElementById("highlight").innerHTML = highlightHtml
+    })
+</script> -->
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+[
+    {
+        "title": "card-body",
+        "image": "blogs page img/cr7.jpg",
+        "alt":"Card image cap"
+    },
+
+    {
+        "title": "card-body ",
+        "image": "blogs page img/neymar.jpg",
+        "alt":"Card image cap"
+    },
+   
+
+    {
+        "title": "card-body",
+        "image": "blogs page img/messi.jpg",
+        "alt":"Card image cap"
+    }
+   
+   
+
+ 
+]
